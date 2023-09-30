@@ -1,0 +1,64 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #FFD700;
+  }
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    background-color: #87CEEB;
+    padding: 90px;
+    margin: 10px;
+    width: 900px;
+    border-radius: 7px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+
+
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+h3 {
+    font-family: Times New Roman, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.hide-bg {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+
+@media (max-width: 870px) {
+
+    .flex {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    img {
+        width: 200px;
+        align: center;
+    }
+    
+}
